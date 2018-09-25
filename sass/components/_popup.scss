@@ -18,7 +18,7 @@
   &__content {
     position: relative;
     max-height: 80vh;
-    max-width: 80vw;
+    max-width: 60vw;
     overflow: scroll;
     z-index: 2000;
     padding: 5rem 7rem;
@@ -30,6 +30,7 @@
     opacity: 0;
 
     @include respond(phone) {
+      max-width: 90vw;
       padding: 3rem 5rem;
     }
   }
