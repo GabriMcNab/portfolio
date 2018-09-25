@@ -306,6 +306,9 @@ body {
 .u-center-text {
   text-align: center !important; }
 
+.u-full-width {
+  width: 100%; }
+
 .u-emphasis {
   color: #FFE981 !important;
   text-shadow: 2px 2px 0 #FF8942; }
@@ -461,6 +464,7 @@ body {
     opacity: 1; }
   .case-study__thumbnail {
     width: 100%;
+    height: 100%;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
@@ -470,15 +474,15 @@ body {
         padding: 2rem 0; } }
     .case-study__thumbnail img {
       width: 100%;
-      height: auto; }
+      height: 100%; }
       @media only screen and (max-width: 56.25em) {
         .case-study__thumbnail img {
           width: 60%;
-          height: auto; } }
+          height: 100%; } }
       @media only screen and (max-width: 37.5em) {
         .case-study__thumbnail img {
           width: 90%;
-          height: auto; } }
+          height: 100%; } }
 
 .cta {
   margin: 4rem 0; }
