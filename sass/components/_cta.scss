@@ -1,0 +1,13 @@
+.cta {
+  margin: 4rem 0;
+
+  &__text {
+    color: $color-secondary-light;
+    font-size: 2rem;
+    font-weight: 600;
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
+  }
+}

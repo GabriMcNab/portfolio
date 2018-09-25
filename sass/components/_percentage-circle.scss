@@ -1,0 +1,25 @@
+.percentage-circle {
+  height: 11rem;
+  width: 11rem;
+
+  &__inner {
+    fill: none;
+    stroke: $color-grey-dark-2;
+    stroke-width: 0.5;
+  }
+
+  &__outer {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke: $color-secondary-dark;
+  }
+
+  &__text {
+    fill: $color-secondary-dark;
+    font-family: $font-secondary;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-anchor: middle;
+  }
+}

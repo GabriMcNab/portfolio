@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="175px" height="157px" viewBox="0 0 175 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Sun</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-40.000000, -40.000000)" fill="url(#linearGradient-1)">
+            <g id="Hero-Section" transform="translate(40.000000, 38.000000)">
+                <path d="M171.158035,2 C173.666991,11.917294 174.999994,22.3029773 174.999994,33 C174.999994,102.587878 118.587873,159 48.9999943,159 C31.6202914,159 15.0624396,155.481238 -2.69082562e-06,149.117272 L-3.41060513e-13,2 L171.158035,2 Z" id="Sun"></path>
+            </g>
+        </g>
+    </g>
+</svg>

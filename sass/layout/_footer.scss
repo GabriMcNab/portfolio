@@ -1,0 +1,25 @@
+.footer {
+  background-color: $color-primary-dark;
+
+  & ul {
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+
+  &__nav {
+    margin: 0 10vw;
+    border-bottom: 1px solid $color-white;
+  }
+
+  &__copy {
+    padding: 2rem;
+    font-family: $font-secondary;
+    text-align: center;
+    color: $color-grey-light-1;
+
+    @include respond(phone) {
+      font-size: 1.4rem;
+    }
+  }
+}

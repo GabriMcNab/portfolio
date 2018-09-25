@@ -1,0 +1,56 @@
+.u-center-text {
+    text-align: center !important;
+}
+
+.u-emphasis {
+    color: $color-secondary-light !important;
+    text-shadow: 2px 2px 0 $color-secondary-dark;
+}
+
+.u-mb-sm{
+    margin-bottom: 2rem !important;
+}
+
+.u-mb-md {
+    margin-bottom: 4rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-mb-lg { 
+    margin-bottom: 8rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.u-new-line {
+    display: block;
+
+    @include respond(phone) {
+        display: inline;
+    }
+}
+
+.u-margin-top-big {
+    margin-top: 8rem !important;
+}
+
+.u-margin-top-huge {
+    margin-top: 10rem !important;
+}
+
+.u-animate-percentage {
+    animation: progress 1s ease-out forwards;
+}
+
+.u-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.u-fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}

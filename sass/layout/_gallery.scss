@@ -1,0 +1,17 @@
+.gallery {
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: rgba($color-tertiary, 0.6);
+  box-shadow: 3px 3px 0 rgba($color-secondary-light, 0.8);
+  border: 3px solid $color-accent;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include respond(big-desktop) {
+    max-width: 120rem;
+  }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.00805546964,0.217604679 L0.00805546964,0.861799695 C8.36645797,5.87799541 16.8844579,10.7922392 25.5620553,15.604531 C25.8273311,15.7516436 26.306857,15.7396257 26.5713992,15.5929004 C35.6854088,10.5379175 35.8354351,10.3695334 44.3191588,5.20111454 C44.3723334,5.07729068 44.3989207,4.81565513 44.3989207,4.41620792 L0.00805546964,0.217604679 Z" id="path-1"></path>
+        <filter x="-26.4%" y="-18.9%" width="152.7%" height="137.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0.290400017" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Island" transform="translate(207.000000, 325.000000)">
+            <g id="Macbook" transform="translate(0.256046, 0.972973)">
+                <g id="Path-31" transform="translate(3.741364, 21.039907)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#BFBFBF" xlink:href="#path-1"></use>
+                    <polygon fill-opacity="0.1" fill="#000000" mask="url(#mask-2)" points="26.0964968 16.0636631 26.0964968 14.2690808 44.3291396 3.64614962 44.8246659 5.39148896 26.4393857 16.3347721"></polygon>
+                </g>
+                <path d="M30.0908225,35.9641839 C36.1991678,32.5668378 42.1658848,29.1328764 47.9909736,25.6622997 C48.2263883,25.5220402 48.2582503,25.4081767 48.0221364,25.2681132 C39.6130831,20.2798356 31.0362329,15.3295778 22.2915859,10.4173399 C22.0805089,10.3870117 21.9551951,10.3833072 21.9156443,10.4062264 C15.8138951,13.9421104 9.79745549,17.5003842 3.86632534,21.0810477 C3.72040532,21.1691406 3.68668455,21.2392678 3.83541467,21.3257152 C12.2809771,26.2345887 20.8336655,31.1200474 29.4934797,35.9820915 C29.5871921,36.0347062 29.9854754,36.022776 30.0908225,35.9641839 Z" id="Path-29" fill="#D2D2D2"></path>
+                <g id="Keyboard" transform="translate(18.706818, 20.463471)">
+                    <polygon id="Path-32" fill="#8C8C8C" points="10.984329 11.9552783 18.7905098 7.27280342 6.94072803 0.228717501 0.0507105831 4.92811283"></polygon>
+                    <path d="M12.8069752,11.6728252 L4.46085653,6.19668497" id="Line" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M14.2459612,11.0963894 L5.89984251,5.62024916" id="Line-Copy" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M15.39715,10.2317356 L7.05103129,4.75559544" id="Line-Copy-2" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M16.8361359,9.65529983 L8.49001727,4.17915963" id="Line-Copy-3" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M17.9873247,8.79064611 L8.49001727,2.7380701" id="Line-Copy-4" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M15.9727444,7.34955659 L17.6995275,6.19668497" id="Line-2" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M14.5337584,6.48490287 L16.2605416,5.33203125" id="Line-2-Copy" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M13.0947724,5.62024916 L14.8215556,4.46737753" id="Line-2-Copy-2" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.6557864,4.75559544 L13.3825696,3.60272382" id="Line-2-Copy-3" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M14.5337584,7.9259924 L15.39715,7.34955659" id="Line-2-Copy-4" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M13.3825696,7.06133868 L14.2470265,6.48419161" id="Line-2-Copy-5" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M12.2313808,6.48490287 L13.0947724,5.90846706" id="Line-2-Copy-6" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.3679892,5.90846706 L12.2313808,5.33203125" id="Line-2-Copy-7" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M10.5045976,5.33203125 L11.3679892,4.75559544" id="Line-2-Copy-8" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.64120606,4.75559544 L10.5045976,4.17915963" id="Line-2-Copy-9" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M8.77781447,4.17915963 L9.64120606,3.60272382" id="Line-2-Copy-10" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M13.0947724,8.50242821 L13.958164,7.9259924" id="Line-2-Copy-11" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.9435836,7.9259924 L12.8069752,7.34955659" id="Line-2-Copy-12" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.080192,7.06133868 L11.9435836,6.48490287" id="Line-2-Copy-13" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.92900325,6.48490287 L10.7923948,5.90846706" id="Line-2-Copy-14" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.06561166,5.90846706 L9.92900325,5.33203125" id="Line-2-Copy-15" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M12.2313808,9.65529983 L13.3352994,8.91827831" id="Line-2-Copy-16" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.080192,8.79064611 L12.1841106,8.05362459" id="Line-2-Copy-17" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.92900325,8.2142103 L11.0329218,7.47718878" id="Line-2-Copy-18" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.06561166,7.63777449 L10.1695302,6.90075297" id="Line-2-Copy-19" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M11.3679892,10.5199535 L12.2324461,9.94280648" id="Line-2-Copy-20" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M10.5045976,9.94351774 L11.3690546,9.36637067" id="Line-2-Copy-21" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M9.64120606,9.36708193 L10.505663,8.78993486" id="Line-2-Copy-22" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                    <path d="M10.2168004,11.3846073 L11.0812574,10.8074602" id="Line-2-Copy-23" stroke="#D2D2D2" stroke-width="0.550000012" stroke-linecap="square"></path>
+                </g>
+                <polygon id="Path-33" stroke="#979797" stroke-width="0.550000012" points="32.9566006 23.5059248 37.7681469 20.5460115 30.0763442 16.0719405 25.7079667 18.9729965"></polygon>
+                <path d="M29.7392474,36.7563655 C28.7726467,29.4989525 27.6334335,22.3467257 26.3216079,15.2996853 C26.1860385,14.5714159 26.0762794,14.4800193 25.5326319,14.1587053 C17.3530916,9.32432138 9.07828936,4.64907593 0.708225029,0.132968903 C0.526662571,0.0350060368 0.239192028,0.263945743 0.286281661,0.6074524 C1.24906787,7.63072806 2.38389496,14.724847 3.69076292,21.8898092 L29.7392474,36.7563655 Z" id="Path-30" stroke="#C6C6C6" stroke-width="0.550000012" fill="#D8D8D8"></path>
+                <path d="M14.57231,20.7528176 C15.605459,20.7528176 16.2007673,19.4426161 15.8802792,18.0780605 C15.5597911,16.713505 14.7424373,16.1402027 13.7092882,16.1402027 C12.6761392,16.1402027 12.5458506,17.1547513 12.7373249,18.5839983 C12.9287992,20.0132452 13.539161,20.7528176 14.57231,20.7528176 Z" id="Oval" fill="#FFFFFF" filter="url(#filter-3)"></path>
+                <path d="M14.57231,20.7528176 C15.605459,20.7528176 16.2007673,19.4426161 15.8802792,18.0780605 C15.5597911,16.713505 14.7424373,16.1402027 13.7092882,16.1402027 C12.6761392,16.1402027 12.5458506,17.1547513 12.7373249,18.5839983 C12.9287992,20.0132452 13.539161,20.7528176 14.57231,20.7528176 Z" id="Oval-Copy" fill="#F4F4F4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

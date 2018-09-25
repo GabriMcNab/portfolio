@@ -1,0 +1,34 @@
+// COLORS
+$color-primary: #30A7F7;
+$color-primary-light: #75C2F6;
+$color-primary-dark: #2776E5;
+
+$color-secondary-light: #FFE981;
+$color-secondary-dark: #FF8942;
+
+$color-tertiary: #08F1BD;
+$color-accent: #E61C5D;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+$color-red: #d83131;
+
+$gradient-main: linear-gradient(to right bottom, $color-primary-dark, $color-tertiary);
+$gradient-secondary: linear-gradient(to bottom, $color-tertiary, $color-primary-dark);
+$gradient-tertiary: linear-gradient(to bottom, $color-secondary-light, $color-secondary-dark);
+
+// FONT
+$font-primary: "Raleway", sans-serif;
+$font-secondary: "Montserrat", sans-serif;
+
+$default-font-size: 1.6rem;
+
+//LAYOUT
+$default-padding: 5rem 9vw;

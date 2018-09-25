@@ -1,0 +1,21 @@
+.toolbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__icon-box {
+    margin-bottom: 1rem;
+
+    &:not(last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    font-family: $font-secondary;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}

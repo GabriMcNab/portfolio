@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1191px" height="890px" viewBox="0 0 1191 890" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Wave-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="31.9324822%" y1="32.0807731%" x2="93.4782306%" y2="93.7915786%" id="linearGradient-1">
+            <stop stop-color="#13F9E0" offset="0%"></stop>
+            <stop stop-color="#75C2F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="Desktop-HD" transform="translate(-210.000000, -53.000000)" fill="url(#linearGradient-1)">
+            <g id="Hero-Section" transform="translate(40.000000, 38.000000)">
+                <g id="Wave-2" transform="translate(1.000000, 1.000000)">
+                    <path d="M140.674469,920.925176 C237.77292,863.307871 301.650095,822.337297 332.305994,798.013456 C410.770755,735.755802 415.744802,689.767846 491.034058,629.178519 C577.13892,559.885288 637.177454,607.900397 715.751584,537.049056 C784.572182,474.992603 766.183834,468.771799 837.705027,418.299292 C901.089771,373.568678 885.438516,387.664363 973.791874,341.134241 C1048.73883,300.362458 1020.76229,263.932159 1082.9506,213.400676 C1162.18621,149.017313 1203.14263,197.056179 1283.83491,126.029768 C1332.739,82.9837402 1381.04758,-14.5515457 1428.76063,-166.57609 L1471.76431,964.34434 L140.674469,920.925176 Z" id="Path-49"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,139 @@
+.sun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+
+  @include respond(tab-port) {
+    width: 15rem;
+  }
+
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.island {
+  position: relative;
+  margin-top: -5rem;
+  height: 50rem;
+  width: 50rem;
+
+  flex-shrink: 0;
+  animation: slideInRight 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  @include respond(tab-port) {
+    margin-left: 20rem;
+    margin-top: -15rem;
+  }
+
+  @include respond(phone) {
+    margin-left: 0;
+    margin-top: -5rem;
+    height: 80vw;
+    width: 80vw;
+  }
+
+  & > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__background {
+    background-image: url("../img/island/background.svg");
+  }
+
+  &__drink {
+    background-image: url("../img/island/drink.svg");
+    opacity: 0;
+    animation: fall 0.3s 3.5s cubic-bezier(.54,.36,.82,1.08) forwards;
+    backface-visibility: hidden;
+  }
+
+  &__gabri {
+    background-image: url("../img/island/gabri.svg");
+    opacity: 0;
+    animation: fall 0.3s 2s cubic-bezier(.54,.36,.82,1.08) forwards;
+    backface-visibility: hidden;
+  }
+
+  &__macbook {
+    background-image: url("../img/island/macbook.svg");
+    opacity: 0;
+    animation: fall 0.3s 2.5s cubic-bezier(.54,.36,.82,1.08) forwards;
+    backface-visibility: hidden;
+  }
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+  &--1 {
+    background-image: url("../img/wave-1.svg");
+  }
+
+  &--2 {
+    background-image: url("../img/wave-2.svg");
+  }
+
+  &--3 {
+    background-image: url("../img/wave-3.svg");
+  }
+}
+
+.cloud {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+
+  @include respond(phone) {
+    display: none;
+    visibility: hidden;
+  }
+
+  &--lg {
+    background-image: url("../img/cloud-lg.svg");
+    top: 2rem;
+    left: -2rem;
+    height: 55rem;
+    width: 55rem;
+  }
+
+  &--md {
+    background-image: url("../img/cloud-md.svg");
+    top: 65rem;
+    right: 50vw;
+    height: 18rem;
+    width: 18rem;
+
+    @include respond(tab-port) {
+      top: 85rem;
+      right: 65vw;
+    }
+  }
+
+  &--sm {
+    background-image: url("../img/cloud-sm.svg");
+    top: 85rem;
+    right: 66vw;
+    height: 10rem;
+    width: 10rem;
+
+    @include respond(tab-port) {
+      top: 102rem;
+      right: 75vw;
+    }
+  }
+}

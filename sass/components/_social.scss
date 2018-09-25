@@ -1,0 +1,20 @@
+.social {
+  &__link:link,
+  &__link:visited {
+    display: inline-block;
+    opacity: 0.9;
+    transition: all 0.2s;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.05) translateY(-2px);
+    }
+  }
+
+  &__icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    fill: $color-grey-light-1;
+  }
+}

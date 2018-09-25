@@ -1,0 +1,117 @@
+.case-study {
+  max-width: 60vw;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  @include respond(tab-port) {
+    flex-direction: column-reverse;
+    align-items: center;    
+  }
+
+  &__img {
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__highlights {
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__list {
+    list-style-position: inside;
+
+    @include respond(tab-port) {
+      list-style: none;
+    }
+  }
+
+  &__link:link,
+  &__link:visited {
+    position: relative;
+    display: inline-block;
+    padding: 0 1rem;
+    color: $color-accent;
+    opacity: 0.8;
+    transition: all 0.2s;
+    overflow: hidden;
+
+    &:hover {
+      color: $color-white;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -10;
+      height: 100%;
+      width: 0;
+      background-color: $color-accent;
+      clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+      transition: all 0.2s ease-in;
+    }
+
+    &:hover::before {
+      width: 125%;
+    }  
+  }
+
+  &__link-disabled {
+    color: $color-red;
+    font-weight: 400;
+    display: block;
+  }
+
+  &__arrow {
+    color: $color-white;
+    display: inline-block;
+    margin-left: 0.5rem;
+    transform: translateX(100%);
+    transition: all 0.2s 0.2s;
+    opacity: 0;
+
+    @include respond(tab-port) {
+      opacity: 1;
+      color: $color-accent;
+      transform: translateX(0);
+    }
+  }
+
+  &__link:hover > &__arrow {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  &__thumbnail {
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include respond(tab-port) {
+      padding: 2rem 0;
+    }
+
+    & img {
+      width: 100%;
+
+      @include respond(tab-port) {
+        width: 60%;
+      }
+
+      @include respond(phone) {
+        width: 90%;
+      }
+    }
+  }
+}

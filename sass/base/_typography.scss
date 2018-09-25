@@ -1,0 +1,116 @@
+body {
+    font-family: $font-primary;
+    font-size: $default-font-size;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+}
+
+.heading-primary {
+    color: $color-white;
+    line-height: normal;
+
+    &--main {
+        font-size: 6rem;
+        font-weight: 800;
+        
+        @include respond(tab-port) {
+            font-size: 4.8rem;
+        }
+
+        @include respond(phone) {
+            font-size: 4.2rem;
+            margin-bottom: 1rem;
+        }
+    }
+    
+    &--sub {
+        text-transform: uppercase;
+        font-family: $font-secondary;
+        font-size: 3rem;
+        font-weight: 300;
+
+        @include respond(tab-port) {
+            font-size: 2.5rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+        }
+    }
+}
+
+.heading-secondary {
+    position: relative;
+    z-index: 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+
+    @include respond(phone) {
+        font-size: 4.5rem;
+    }
+
+    &--dark {
+        color: $color-primary-dark;
+        text-shadow: 2px 2px 0 $color-tertiary;
+    }
+
+    &--light {
+        color: $color-grey-light-1;
+        text-shadow: 2px 2px 0 $color-secondary-dark;
+    }
+
+    &::before,
+    &::after {
+        content:attr(data-content);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &::before {
+        color: $color-accent;
+        z-index: -1;
+    }
+
+    &::after {
+        color: lime;
+        z-index: -2;
+    }
+
+    &:hover {
+        text-shadow: none;
+
+        &::before {
+            animation: glitchy 0.3s ease 0.3s infinite;
+        }
+        
+        &::after {
+            animation: glitchy 0.3s ease infinite reverse;
+        }
+    }
+}
+
+.heading-tertiary {
+    color: $color-secondary-dark;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 0 $color-secondary-light;
+}
+
+.paragraph {
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    @include respond(phone) {
+        text-align: justify;
+        hyphens: auto;
+    }
+}
