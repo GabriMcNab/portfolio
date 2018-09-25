@@ -51,14 +51,14 @@ $(document).ready(function () {
 	//Popups
 	$('.popup-open').click(function () {
 		var id = $(this).data('target')
-		$(`#${id}`).addClass('open');
-		$(`#${id}-content`).addClass('appear');
+		$('#' + id).addClass('open');
+		$('#' + id + '-content').addClass('appear');
 	});
 
 	$('.popup-close').click(function () {
 		var id = $(this).data('target')
-		$(`#${id}`).toggleClass('open');
-		$(`#${id}-content`).toggleClass('appear');
+		$('#' + id).toggleClass('open');
+		$('#' + id + '-content').toggleClass('appear');
 	});
 
 	$('.popup').click(function (e) {

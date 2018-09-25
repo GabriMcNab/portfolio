@@ -501,6 +501,7 @@ body {
       .hero__text {
         font-size: 1.6rem; } }
   .hero__text-box {
+    width: 100%;
     animation: slideInLeft 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
   .hero__wrapper {
     display: flex;
@@ -612,6 +613,7 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
     height: calc(70% + 3rem);
     padding: 1rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
@@ -635,6 +637,7 @@ body {
     font-size: 1.8rem;
     font-weight: 600; }
   .project__description {
+    width: 100%;
     margin-bottom: 1rem; }
   .project__link {
     cursor: pointer;
@@ -686,6 +689,7 @@ body {
   fill: #f7f7f7; }
 
 .toolbox {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -814,6 +818,7 @@ body {
   flex-direction: column;
   align-items: center; }
   .section-about__container {
+    width: 100%;
     margin: 2rem 0; }
     @media only screen and (min-width: 112.5em) {
       .section-about__container {
@@ -845,6 +850,7 @@ body {
         height: 25rem;
         width: 25rem; } }
   .section-about__text-box {
+    width: 100%;
     margin-top: 2rem; }
 
 .section-portfolio {

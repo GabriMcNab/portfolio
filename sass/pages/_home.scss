@@ -32,6 +32,7 @@
   align-items: center;
 
   &__container {
+    width: 100%;
     margin: 2rem 0;
 
     @include respond(big-desktop) {
@@ -73,6 +74,7 @@
   }
 
   &__text-box {
+    width: 100%;
     margin-top: 2rem;
   }
 }
