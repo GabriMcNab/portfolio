@@ -555,6 +555,7 @@ body {
   align-items: center; }
   .popup__content {
     position: relative;
+    width: 100%;
     max-height: 80vh;
     max-width: 60vw;
     overflow: scroll;
