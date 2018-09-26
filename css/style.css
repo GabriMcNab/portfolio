@@ -135,8 +135,9 @@ a:visited {
   margin-top: -5rem;
   height: 50rem;
   width: 50rem;
+  opacity: 0;
   flex-shrink: 0;
-  animation: slideInRight 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  animation: slideInRight 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; }
   @media only screen and (max-width: 56.25em) {
     .island {
       margin-left: 20rem;
@@ -497,7 +498,8 @@ body {
 .hero {
   margin-top: 8rem;
   width: 100%;
-  animation: slideInLeft 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  opacity: 0;
+  animation: slideInLeft 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; }
   .hero__text {
     font-size: 1.8rem;
     line-height: normal;
@@ -510,7 +512,8 @@ body {
         font-size: 1.6rem; } }
   .hero__text-box {
     width: 100%;
-    animation: slideInLeft 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+    opacity: 0;
+    animation: slideInLeft 0.8s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; }
   .hero__wrapper {
     width: 100%;
     display: flex;
