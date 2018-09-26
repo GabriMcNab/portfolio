@@ -48,3 +48,9 @@ a:visited {
 .js-focus-visible .btn:focus:not(.focus-visible) {
     font-size: $default-font-size;
   }
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+    animation-play-state: paused !important;
+}

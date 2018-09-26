@@ -62,6 +62,11 @@ body {
         text-shadow: 2px 2px 0 $color-secondary-dark;
     }
 
+    &--orange {
+        color: $color-secondary-dark;
+        text-shadow: 2px 2px 0 $color-secondary-light;
+    }
+
     &::before,
     &::after {
         content:attr(data-content);
@@ -93,15 +98,6 @@ body {
             animation: glitchy 0.3s ease infinite reverse;
         }
     }
-}
-
-.heading-tertiary {
-    color: $color-secondary-dark;
-    font-size: 4rem;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    text-shadow: 2px 2px 0 $color-secondary-light;
 }
 
 .paragraph {

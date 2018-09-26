@@ -113,6 +113,11 @@ a:visited {
 .js-focus-visible .btn:focus:not(.focus-visible) {
   font-size: 1.6rem; }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important; }
+
 .sun {
   position: absolute;
   top: 0;
@@ -267,6 +272,9 @@ body {
   .heading-secondary--light {
     color: #f7f7f7;
     text-shadow: 2px 2px 0 #FF8942; }
+  .heading-secondary--orange {
+    color: #FF8942;
+    text-shadow: 2px 2px 0 #FFE981; }
   .heading-secondary::before, .heading-secondary::after {
     content: attr(data-content);
     position: absolute;
@@ -286,14 +294,6 @@ body {
       animation: glitchy 0.3s ease 0.3s infinite; }
     .heading-secondary:hover::after {
       animation: glitchy 0.3s ease infinite reverse; }
-
-.heading-tertiary {
-  color: #FF8942;
-  font-size: 4rem;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.1rem;
-  text-shadow: 2px 2px 0 #FFE981; }
 
 .paragraph:not(:last-child) {
   margin-bottom: 3rem; }
