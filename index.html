@@ -23,33 +23,6 @@
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <!-- Cookie Consent -->
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-  <script>
-    window.addEventListener("load", function () {
-      window.cookieconsent.initialise({
-        "palette": {
-          "popup": {
-            "background": "#2776e5"
-          },
-          "button": {
-            "background": "transparent",
-            "border": "#08F1BD",
-            "text": "#08F1BD"
-          }
-        }
-      })
-    });
-  </script>
-  <!-- Wait for page to load before starting animations -->
-  <script>
-    document.body.classList.add('js-loading');
-    window.addEventListener("load", showPage);
-    function showPage() {
-      document.body.classList.remove('js-loading');
-    }
-  </script>
 </head>
 
 <body>
@@ -103,7 +76,6 @@
         </div>
       </div>
       <div class="island">
-        <div class="cloud cloud--lg">&nbsp;</div>
         <div class="island__background">&nbsp;</div>
         <div class="island__drink">&nbsp;</div>
         <div class="island__gabri">&nbsp;</div>
@@ -124,8 +96,6 @@
     <div class="wave wave--3">&nbsp;</div>
     <div class="wave wave--2">&nbsp;</div>
     <div class="wave wave--1">&nbsp;</div>
-    <div class="cloud cloud--sm">&nbsp;</div>
-    <div class="cloud cloud--md">&nbsp;</div>
   </section>
 
   <!-- About Section -->
@@ -134,7 +104,7 @@
     <div class="section-about__container">
       <div class="section-about__img">&nbsp;</div>
       <div class="section-about__text-box">
-        <p class="paragraph">An Italian kid based out of Genoa (IT), I’m someone who’s most at home when I’m creating
+        <p class="paragraph">An Italian kid based out of Milan (IT), I’m someone who’s most at home when I’m creating
           things.
           My interests are eclectic, and they include cooking, nature, photography and music. I used to work as a sound
           engineer
@@ -142,7 +112,7 @@
           computer musician, but today I am a web developer.</p>
         <p class="paragraph">My career in web development started in September 2017. Motivated to pick up new skills at
           a
-          fast pace, I’m currently focused most on CSS, SVG, and React JS.</p>
+          fast pace, I’m currently focused most on Frontend technologies.</p>
         <p class="paragraph u-mb-sm">I’m curious by nature, and because I learn easily, I’ve taken to the technology
           field very
           smoothly.
@@ -158,12 +128,12 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="50, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="100, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">50</text>
+          <text x="18" y="21.85" class="percentage-circle__text">100</text>
         </svg>
-        <p class="toolbox__text">Node JS</p>
+        <p class="toolbox__text">Vue JS</p>
       </div>
       <div class="toolbox__icon-box">
         <svg class="percentage-circle" width="100px" height="100px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -171,10 +141,10 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="70, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="92, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">70</text>
+          <text x="18" y="21.85" class="percentage-circle__text">95</text>
         </svg>
         <p class="toolbox__text">React JS</p>
       </div>
@@ -184,12 +154,12 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="75, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="95, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">75</text>
+          <text x="18" y="21.85" class="percentage-circle__text">95</text>
         </svg>
-        <p class="toolbox__text">Javascript</p>
+        <p class="toolbox__text">Typescript</p>
       </div>
       <div class="toolbox__icon-box">
         <svg class="percentage-circle" width="100px" height="100px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -197,12 +167,12 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="90, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="100, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">90</text>
+          <text x="18" y="21.85" class="percentage-circle__text">100</text>
         </svg>
-        <p class="toolbox__text">HTML / CSS</p>
+        <p class="toolbox__text">HTML5 / CSS3</p>
       </div>
       <div class="toolbox__icon-box">
         <svg class="percentage-circle" width="100px" height="100px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -210,12 +180,12 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="85, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="60, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">85</text>
+          <text x="18" y="21.85" class="percentage-circle__text">60</text>
         </svg>
-        <p class="toolbox__text">SASS</p>
+        <p class="toolbox__text">C#</p>
       </div>
       <div class="toolbox__icon-box">
         <svg class="percentage-circle" width="100px" height="100px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -228,7 +198,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831" />
           <text x="18" y="21.85" class="percentage-circle__text">65</text>
         </svg>
-        <p class="toolbox__text">JQuery</p>
+        <p class="toolbox__text">MySQL</p>
       </div>
       <div class="toolbox__icon-box">
         <svg class="percentage-circle" width="100px" height="100px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -236,12 +206,12 @@
           <path class="percentage-circle__inner" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-circle__outer" stroke-dasharray="40, 100" d="M18 2.0845
+          <path class="percentage-circle__outer" stroke-dasharray="80, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <text x="18" y="21.85" class="percentage-circle__text">40</text>
+          <text x="18" y="21.85" class="percentage-circle__text">80</text>
         </svg>
-        <p class="toolbox__text">Mongo DB</p>
+        <p class="toolbox__text">Web Components</p>
       </div>
     </div>
   </section>
@@ -574,7 +544,6 @@
         to
         chat about a project - send me an email or contact me through my social pages.</p>
       <a href="mailto:92gabri@gmail.com" class="btn btn--red u-mb-sm">Contact Me</a>
-      <span class="section-contacts__span">*While stock lasts</span>
       <div class="social">
         <a href="https://www.facebook.com/gabrielefaziodnb" target="_blank" class="social__link"><svg class="social__icon"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
