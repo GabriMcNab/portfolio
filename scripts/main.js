@@ -1,34 +1,31 @@
-$(document).ready(function () {
-  //Learn More button animation
-  $('a[href*="#"]').on("click", function (e) {
-    e.preventDefault();
+document.addEventListener("DOMContentLoaded", function (event) {
+  var openButtons = document.querySelectorAll(".popup-open");
 
-    $("html, body").animate(
-      {
-        scrollTop: $($(this).attr("href")).offset().top,
-      },
-      700,
-      "linear"
-    );
+  openButtons.forEach(function (button) {
+    button.addEventListener("click", function (e) {
+      var id = e.target.getAttribute("data-target");
+      document.getElementById(id).classList.add("open");
+      document.getElementById(id + "-content").classList.add("appear");
+    });
   });
 
-  //Popups
-  $(".popup-open").click(function () {
-    var id = $(this).data("target");
-    $("#" + id).addClass("open");
-    $("#" + id + "-content").addClass("appear");
+  var closeButtons = document.querySelectorAll(".popup-close");
+
+  closeButtons.forEach(function (button) {
+    button.addEventListener("click", function (e) {
+      var id = e.target.getAttribute("data-target");
+      document.getElementById(id).classList.toggle("open");
+      document.getElementById(id + "-content").classList.toggle("appear");
+    });
   });
 
-  $(".popup-close").click(function () {
-    var id = $(this).data("target");
-    $("#" + id).toggleClass("open");
-    $("#" + id + "-content").toggleClass("appear");
-  });
+  var popups = document.querySelectorAll(".popup");
 
-  $(".popup").click(function (e) {
-    if (e.target == this) {
-      $(".popup").removeClass("open");
-      $(".popup__content").removeClass("appear");
-    }
+  popups.forEach(function (popup) {
+    popup.addEventListener("click", function (e) {
+      var id = e.target.getAttribute("data-target");
+      document.getElementById(id).classList.remove("open");
+      document.getElementById(id + "-content").classList.remove("appear");
+    });
   });
 });
